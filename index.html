@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    <h1>Formulário Simples</h1>
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" class="nome">
+    <button onclick="exibir()">Exibir</button>
+
+    <script>
+        function exibir(){
+            let nome = document.querySelector("#nome").value;
+            let nome = document.querySelector("#nome").value;
+        // querySelector: selecionar itens como id, class, e nome de tag (mais flexível).
+            alert("Bem Vindo(a): " +nome);
+        }
+    </script>
+</body>
+</html>
